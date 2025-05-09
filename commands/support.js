@@ -9,10 +9,10 @@ module.exports = {
     options: [],
     run: async (client, interaction, lang) => {
         try {
-            const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-            const githubLink = "https://github.com/GlaceYT";
-            const replitLink = "https://replit.com/@GlaceYT";
-            const youtubeLink = "https://www.youtube.com/@GlaceYT";
+            const supportServerLink = "https://discord.gg/UjzZdt6VKC";
+            const githubLink = "https://github.com/Sadaf-dll777";
+            const replitLink = "https://replit.com/@mdsaifalsadaf";
+            const youtubeLink = "https://www.youtube.com/@clorexoffiicial";
 
             const embed = new EmbedBuilder()
                 .setColor('#b300ff')
@@ -27,7 +27,7 @@ module.exports = {
                     .replace("{replitLink}", replitLink)
                     .replace("{youtubeLink}", youtubeLink)
                 )
-                .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+                .setImage('https://cdn.discordapp.com/attachments/1293865045272563763/1370448135960137859/standard_8.gif?ex=681f88c9&is=681e3749&hm=4681bda1651d02c79ffe018efd4c6654910001e9bcc702baa4a1856059b4db7f&')
                 .setTimestamp();
 
             await interaction.reply({ embeds: [embed] });
